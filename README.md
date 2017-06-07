@@ -35,7 +35,7 @@ mix.exs
 defp deps do
   [
     # ...
-    {:guardian, "~> 0.14"}
+    {:guardian, git: "https://github.com/rubikill/guardian"}
     # ...
   ]
 end
