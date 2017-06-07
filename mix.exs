@@ -42,7 +42,7 @@ defmodule Guardian.Mixfile do
 
   defp deps do
     [{:jose, "~> 1.8"},
-     {:phoenix, "~> 1.2", optional: true},
+     {:phoenix, "~> 1.3.0-rc"},
      {:plug, "~> 1.3"},
      {:poison, ">= 1.3.0"},
      {:uuid, ">=1.1.1"},
